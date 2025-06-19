@@ -1,9 +1,9 @@
-##Web-dev-learning
+#Web-dev-learning
 
 This repository contains my learning journey in web development.
 Here you'll find small HTML, CSS practice projects and challenges and exercise
 
-##Tools Used
+#Tools Used
 
 -HTML5
 
@@ -14,7 +14,7 @@ Here you'll find small HTML, CSS practice projects and challenges and exercise
 -GitHub
 
 
-##How to Use
+#How to Use
 
 Clone this repo and open the files in your browser or editor to explore the examples.
 
