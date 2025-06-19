@@ -1,0 +1,127 @@
+.logo img {
+    width: 165px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right ul {
+    display: flex;
+    gap: 35px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+.btn {
+    color: white;
+    background-color: #00b6d1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.first p {
+    font-size: 23px;
+    width: 62vw;
+    text-align: center;
+}
+
+section span img {
+    margin: 0 23px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 50vw;
+    margin: auto;
+    max-width: 77vw;
+    margin: auto;
+}
+.item{
+    background-color:#f9f9f9;
+    padding: 23px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom:36px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+.download :nth-child(2){
+    font-size: 23px;
+}
+.download img{
+    height: 60px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 1145px){
+    .grid{
+        grid-template-columns: 1fr;
+    } 
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 Making the multicolor Nav bar with global variable</title>
+    <style>
+        /* :root {
+            --primarycolor: #ff74f6;
+            --secondarycolor: #f7cff4;
+            --textocolor: white;
+        } */
+
+        :root {
+            --primarycolor: #1e1c5e;
+            --secondarycolor: #a4daea;
+            --textocolor: white;
+        }
+
+        body {
+            background-color: var(--secondarycolor);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: var(--primarycolor);
+            padding: 15px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li {
+            display: inline;
+            padding: 15px;
+            font-weight: bolder;
+            /* color: white; */
+
+        }
+
+        ul li a {
+            color: var(--textocolor);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

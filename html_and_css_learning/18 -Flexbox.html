@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css FlexBOx</title>
+
+    <style>
+        .container {
+            border: 2px solid red;
+            display: flex;
+            /* Now this the Flex box (Default behaviour of Flexbox is adjusting from Left to right) */
+            height: 350px;
+           
+            justify-content: space-evenly;
+            /* /* justify-content: start; */
+             /* justify-content:end ; */
+             /* justify-content: stretch; */
+            /* justify-content: unset; */ 
+align-items: center;
+        }
+
+        .item {
+            background-color: violet;
+            border: 2px solid black;
+            height: 32px;
+            width: 32px;
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+
+</html>

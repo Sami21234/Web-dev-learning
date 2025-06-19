@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificty</title>
+    <style>
+        /* So, here the h1 will take the id color as the priority is this after the (!important) and the (Inline style )  */
+
+        /* it is the Universal seletor */
+        * {
+            color: black;
+        }
+
+        /* it is the id selector */
+        #title {
+            color: rgb(118, 42, 165);
+        }
+        
+        /* it is the class selector */
+        .h1 {
+            color: blue;
+        }
+
+        /* it is the element selector */
+        h1 {
+            color: aquamarine;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <p>This is to calculate the priority of the colors assugned to the websites</p>
+        <h1 id="title" class="h1">This is the line</h1>
+    </div>
+</body>
+
+</html>

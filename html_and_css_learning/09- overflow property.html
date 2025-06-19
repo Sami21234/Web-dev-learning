@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Overflow Property</title>
+    <style>
+        .box {
+            width: 40vw;
+            height: 10vh;
+            border: 2px solid black;
+            overflow: auto;
+            /* for displaying horizontal scroll bar only */
+            white-space: nowrap;
+            /* for displaying vertical scroll bar only */
+            text-overflow: ellipsis;
+            /* for displaying (....) in the last of the line or para*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste accusamus odio dolorum temporibus maxime
+        recusandae explicabo inventore illum, aliquam nesciunt eveniet ad, eos porro fugiat, impedit voluptatum. Et
+        officiis sunt vero dolorem quidem, est nesciunt fugiat eos sequi magnam. Minima illo natus laudantium
+        exercitationem tenetur.
+    </div>
+</body>
+
+</html>
