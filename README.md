@@ -5,13 +5,13 @@ Here you'll find small HTML, CSS practice projects and challenges and exercise
 
 #Tools Used
 
--HTML5
+- HTML5
 
--CSS3
+- CSS3
 
--Visual Studio Code
+- Visual Studio Code
 
--GitHub
+- GitHub
 
 
 #How to Use
